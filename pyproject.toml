@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logharvest"
+version = "1.0.0"
+description = "Collapse noisy logs into deterministic error fingerprints and priorities."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["logs", "observability", "errors", "cli", "devtools"]
+
+[project.scripts]
+logharvest = "logharvest.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,7 @@
+2026-09-04T10:00:00Z INFO service started
+2026-09-04T10:00:02Z ERROR request 18321 failed from 10.0.0.4 after 750ms
+  at checkout.charge(checkout.py:88)
+  at api.handle(api.py:41)
+2026-09-04T10:00:03Z WARN cache latency 820ms
+2026-09-04T10:00:06Z ERROR request 92177 failed from 10.0.0.8 after 1100ms
+  at checkout.charge(checkout.py:88)
