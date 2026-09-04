@@ -1,5 +1,7 @@
 # LogHarvest
 
+[![CI](https://github.com/al1re3a/logharvest/actions/workflows/ci.yml/badge.svg)](https://github.com/al1re3a/logharvest/actions/workflows/ci.yml) [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 **Turn 100,000 noisy log lines into the five failures that matter.**
 
 LogHarvest is a dependency-free Python CLI that detects error events, keeps useful stack context, removes volatile values, and groups repeated failures under stable fingerprints.
